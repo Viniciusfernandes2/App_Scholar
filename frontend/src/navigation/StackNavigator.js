@@ -11,6 +11,7 @@ import LancarNotaScreen from "../screens/LancarNotaScreen";
 import BoletimScreen from "../screens/BoletimScreen";
 import PerfilScreen from "../screens/PerfilScreen";
 import AlterarSenhaScreen from "../screens/AlterarSenhaScreen";
+import ListaUasuariosScreen from "../screens/ListaUsuariosScreen"
 
 const Stack = createNativeStackNavigator();
 
@@ -25,7 +26,7 @@ export default function StackNavigator() {
         <Stack.Screen name="CadastroAluno" component={CadastroAlunoScreen} />
         <Stack.Screen name="CadastroProfessor" component={CadastroProfessorScreen} />
         <Stack.Screen name="CadastroDisciplina" component={CadastroDisciplinaScreen} />
-
+        <Stack.Screen name="Usuarios" component={ListaUasuariosScreen} />
         <Stack.Screen name="LancarNota" component={LancarNotaScreen} />
         <Stack.Screen name="Boletim" component={BoletimScreen} />
         <Stack.Screen name="AlterarSenha" component={AlterarSenhaScreen} />

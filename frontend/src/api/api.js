@@ -1,7 +1,7 @@
 import axios from "axios";
 import { storage } from "../utils/storage";
 
-let base = "http://192.168.15.12:4000";
+let base = "http://10.68.55.173:4000";
 
 // WEB usa IP da sua máquina
 if (typeof window !== "undefined") {
